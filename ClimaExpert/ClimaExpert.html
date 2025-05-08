@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <title>Clima Expert - Κλιματιστικά</title>
+    <link rel="stylesheet" href="CSS1.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #00a846;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #6c6c6c;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 14px 20px;
+            display: block;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        .container {
+            padding: 20px;
+        }
+        .services, .brands, .map {
+            margin-bottom: 30px;
+        }
+        .services h2, .brands h2, .map h2 {
+            margin-bottom: 15px;
+        }
+        .brands img {
+            width: 150px;
+            margin: 10px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Clima Expert</h1>
+    <p>Οι ειδικοί στα κλιματιστικά</p>
+</header>
+
+<nav>
+    <a href="#home">Αρχική Σελίδα</a>
+    <a href="#services">Υπηρεσίες</a>
+    <a href="#eshop">E-shop</a>
+    <a href="#photos">Φωτογραφίες</a>
+    <a href="#contact">Επικοινωνία</a>
+</nav>
+
+<div id="home" class="container">
+    <h2>Καλώς ήρθατε στην Clima Expert</h2>
+    <p>Η Clima Expert προσφέρει κορυφαίες λύσεις για κλιματιστικά με γνώμονα την άνεση και την ποιότητα.</p>
+</div>
+
+<div id="services" class="container services">
+    <h2>Υπηρεσίες</h2>
+    <ul>
+        <li>Εγκατάσταση κλιματιστικών</li>
+        <li>Συντήρηση και καθαρισμός</li>
+        <li>Επισκευές και ανταλλακτικά</li>
+        <li>Εξειδικευμένες συμβουλές για ενεργειακή απόδοση</li>
+    </ul>
+</div>
+
+<div id="photos" class="container brands">
+    <h2>Brands που διαθέτουμε</h2>
+    <p>Ακολουθούν αναμονές για φωτογραφίες από τα διαθέσιμα brands:</p>
+    <img src="Daikin.png" alt="Brand 1" title="Daikin">
+    <img src="Fujitsu.png" alt="Brand 2" title="Fujitsu">
+    <img src="Mitsubishi Electric.png" alt="Brand 3" title="Mitsubishi Electric">
+    <img src="LG.png" alt="Brand 4" title="LG">
+</div>
+
+<div id="contact" class="container map">
+    <h2>Χάρτης</h2>
+    <div style="width: 100%; height: 300px; background-color: #eee; display: flex; align-items: center; justify-content: center;">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d163.9821211757783!2d23.794285948606344!3d38.0110735780254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sel!2sgr!4v1743603314266!5m2!1sel!2sgr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+</div>
+
+<footer>
+    <p>© 2024 Clima Expert - Όλα τα δικαιώματα διατηρούνται.</p>
+</footer>
+
+</body>
+</html>
